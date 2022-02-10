@@ -20,6 +20,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
@@ -29,7 +30,7 @@ import com.example.android.navigation.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var drawerLayout: DrawerLayout
-   // private lateinit var navController:
+    private lateinit var navController:NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,17 +38,17 @@ class MainActivity : AppCompatActivity() {
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
         setupWithNavController()
         drawerLayout = binding.drawerLayout
+
         setupActionBarWithNavController()
     }
 
     private fun setupWithNavController() {
-        val navController = null
-        val binding = null
-        NavigationUI.setupWithNavController(binding.navView, navController)
+        NavigationUI.setupWithNavController(binding.navControl,navController)
     }
 
+
     private fun setupActionBarWithNavController() {
-        NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
+        NavigationUI.setupActionBarWithNavController(this,navController,drawerLayout)
     }
 
     override fun onSupportNavigateUp(): Boolean {

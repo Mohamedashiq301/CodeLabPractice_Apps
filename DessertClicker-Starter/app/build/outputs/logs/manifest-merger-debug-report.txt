@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
+ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\56f4158f5bf89bc807acb3777f423cf3\databinding-adapters-4.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\740cf2bb98eda01830bc8a547de70bdd\databinding-runtime-4.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\200782df24e9ec7fec60e3fde4da4ed6\constraintlayout-2.0.0-rc1\AndroidManifest.xml:2:1-11:12
@@ -29,25 +29,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ashiq\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\3b0b05070bc9286d52a6b3c810b8c821\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\aab15b69fca1ffde3f55c4793eabe4f8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\7d01e9386d69a672da8ac3ffe9c7d5f1\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
 	package
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:18:5-49
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:18:5-49
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:11-69
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:11-69
 application
-ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:20:5-34:19
+ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:20:5-36:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\200782df24e9ec7fec60e3fde4da4ed6\constraintlayout-2.0.0-rc1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\200782df24e9ec7fec60e3fde4da4ed6\constraintlayout-2.0.0-rc1\AndroidManifest.xml:9:5-20
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\1cdc46e3094817798895aadf00bc96c7\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
@@ -59,35 +59,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\As
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\fb0b218cb06952f748f2d8d1a63d6cc6\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:24:9-41
 	android:roundIcon
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:24:9-61
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:25:9-61
 	android:icon
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:22:9-50
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:23:9-50
 	android:allowBackup
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:27:9-40
+	android:name
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:21:9-43
 activity#com.example.android.dessertclicker.MainActivity
-ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:27:9-33:20
+ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:29:9-35:20
 	android:name
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:27:19-81
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:29:19-81
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\56f4158f5bf89bc807acb3777f423cf3\databinding-adapters-4.0.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\56f4158f5bf89bc807acb3777f423cf3\databinding-adapters-4.0.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\740cf2bb98eda01830bc8a547de70bdd\databinding-runtime-4.0.1\AndroidManifest.xml:22:5-44
@@ -138,13 +140,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ashiq\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\aab15b69fca1ffde3f55c4793eabe4f8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\7d01e9386d69a672da8ac3ffe9c7d5f1\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ashiq\.gradle\caches\transforms-2\files-2.1\7d01e9386d69a672da8ac3ffe9c7d5f1\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ashiq\repo\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ashiq\CodeLab Apps\DessertClicker-Starter\app\src\main\AndroidManifest.xml

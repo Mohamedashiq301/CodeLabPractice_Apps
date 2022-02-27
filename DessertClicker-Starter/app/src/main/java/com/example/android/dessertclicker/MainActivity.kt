@@ -26,6 +26,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import com.example.android.dessertclicker.databinding.ActivityMainBinding
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
 
@@ -65,7 +66,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        Log.i("MainActivity","OnCreateCalled")
+        //Log.i("MainActivity","OnCreateCalled")
+        Timber.i("onCreateCalled")
 
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
@@ -85,7 +87,33 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.i("MainActivity","onStartCalled")
+        //Log.i("MainActivity","onStartCalled")
+        Timber.i("onStartCalled")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Timber.i("onResumeCalled")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Timber.i("onPauseCalled")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Timber.i("onStopCalled")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Timber.i("onDestroyCalled")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Timber.i("onRestartCalled")
     }
 
     /**

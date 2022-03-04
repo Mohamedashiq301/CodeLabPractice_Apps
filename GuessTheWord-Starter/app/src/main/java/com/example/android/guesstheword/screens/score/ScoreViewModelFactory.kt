@@ -7,5 +7,5 @@ class ScoreViewModelFactory (private val finalScore:Int):ViewModelProvider.Facto
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         return ScoreViewModel(finalScore)as T
     }
-
+    throw IllegalArgumentException("Unknown exception")
 }

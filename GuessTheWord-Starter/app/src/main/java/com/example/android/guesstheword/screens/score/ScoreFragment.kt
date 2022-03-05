@@ -47,13 +47,15 @@ class ScoreFragment : Fragment() {
             container,
             false
         )
-        return binding.root
-
         viewModelFactory = ScoreViewModelFactory(ScoreFragmentArgs.fromBundle(requireArguments()).score)
 
         viewModel = ViewModelProvider(this, viewModelFactory)
             .get(ScoreViewModel::class.java)
 
         binding.scoreText.text = viewModel.score.toString()
+
+        return binding.root
+
+
     }
 }

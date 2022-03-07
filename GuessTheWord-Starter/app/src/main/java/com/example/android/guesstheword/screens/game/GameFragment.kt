@@ -24,6 +24,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavHostController
@@ -63,6 +64,10 @@ class GameFragment : Fragment() {
         updateWordText()
         binding.endGameButton.setOnClickListener { onEndGame() }
 
+        viewModel.eventGameFinish.observe(viewLifecycleOwner, Observer<Boolean> { hasFinished ->
+            if (hasFinished) gameFinished()
+        })
+
         return binding.root
 
 
@@ -72,11 +77,18 @@ class GameFragment : Fragment() {
         gameFinished()
     }
 
+//    private fun gameFinished() {
+//        Toast.makeText(activity,"Game has just finished",Toast.LENGTH_SHORT).show()
+//        val action=GameFragmentDirections.actionGameToScore()
+//        action.score=viewModel.score.value?:0
+//        NavHostFragment.findNavController(this).navigate(action)
+//    }
+
     private fun gameFinished() {
-        Toast.makeText(activity,"Game has just finished",Toast.LENGTH_SHORT).show()
-        val action=GameFragmentDirections.actionGameToScore()
-        action.score=viewModel.score.value?:0
-        NavHostFragment.findNavController(this).navigate(action)
+        Toast.makeText(activity, "Game has just finished", Toast.LENGTH_SHORT).show()
+//        val action = GameFragmentDirections.actionGameToScore()
+//        action.score = viewModel.score.value?:0
+//        NavHostFragment.findNavController(this).navigate(action)
     }
 
 
@@ -98,7 +110,7 @@ class GameFragment : Fragment() {
     /** Methods for updating the UI **/
 
     private fun updateWordText() {
-        binding.wordText.text = viewModel.word.value
+        binding.wordText.text = viewModel.word.value.toString()
     }
 
     private fun updateScoreText() {

@@ -23,6 +23,8 @@ class GameViewModel : ViewModel() {
     val eventGameFinish: LiveData<Boolean>
         get() = _eventGameFinish
 
+    
+
 
     /**
      * Resets the list of words and randomizes the order

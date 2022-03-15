@@ -19,11 +19,14 @@ package com.example.android.trackmysleepquality.database
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
+import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
 
+
 @Dao
 interface SleepDatabaseDao {
+
     @Insert
     suspend fun insert(night: SleepNight)
 
@@ -36,12 +39,10 @@ interface SleepDatabaseDao {
     @Query("DELETE FROM daily_sleep_quality_table")
     suspend fun clear()
 
-    @Query("Select * from daily_sleep_quality_table ORDER BY nightId DESC LIMIT 1")
-    suspend fun getTonight(): SleepNight
-
-    @Query("Select* from daily_sleep_quality_table ORDER BY nightId DESC")
+    @Query("SELECT * FROM daily_sleep_quality_table ORDER BY nightId DESC")
     fun getAllNights(): LiveData<List<SleepNight>>
+
+    @Query("SELECT * FROM daily_sleep_quality_table ORDER BY nightId DESC LIMIT 1")
+    suspend fun getTonight(): SleepNight?
 }
-
-
 
